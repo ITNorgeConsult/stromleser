@@ -33,6 +33,7 @@ Motoren kjører hjemme hos deg (Raspberry Pi, Docker, Unraid eller Linux). Datae
 **Økonomi**
 - Strømregningen for måneden og i dag: strøm etter avtalen (Norgespris med tak, spot eller fastpris), strømstøtte, nettleie (energiledd, kapasitetstrinn og fastbeløp), avgifter og mva.
 - Salg av solstrøm: spotpris time for time, påslag og plusskunde-godtgjøring. Prognose for hele måneden.
+- «Slik står det på fakturaen»: måneden med de samme linjene som fakturaene fra strømleverandøren og nettselskapet, også med gjennomfakturering.
 - Satser per bygg med «gjelder fra», med standardsatser og kilder for 2023–2026.
 
 **Historikk**
@@ -49,6 +50,7 @@ Motoren kjører hjemme hos deg (Raspberry Pi, Docker, Unraid eller Linux). Datae
 - Oppdatering fra nettsiden: Strømleser ser etter nye versjoner og viser hva som er nytt. Ett trykk laster ned, sjekker (SHA-256) og installerer, og setter den forrige tilbake hvis den nye ikke starter. Automatisk oppdatering om natta og testversjoner kan velges.
 - Lite skriving til minnekortet: sanntid i minnet, og måledata skrives samlet hvert 15. minutt (SQLite).
 - Passord krypteres (AES-GCM) og vises aldri i API-et.
+- Kode for å endre: alle kan se, men bare den med koden kan endre innstillinger. Låses igjen etter 10 minutter, fint for et nettbrett som står fremme.
 - Norsk og engelsk.
 
 **Planlagt:** elbillader (Easee), bil (BMW CarData), ladeøkter og refusjonsrapport for firmabil, sikkerhetskopi, og senere Strømleser Sky på strømleser.no.

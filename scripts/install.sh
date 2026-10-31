@@ -35,7 +35,8 @@ command -v systemctl >/dev/null || die "Fant ikke systemd. Bruk Docker i stedet.
 if [ "$UNINSTALL" -eq 1 ]; then
   say "Stopper og fjerner tjenesten (data i $DATA beholdes)"
   systemctl disable --now stromleser stromleser-update.path 2>/dev/null || true
-  rm -f "$UNIT" "$BIN" "$BIN.prev" /etc/systemd/system/stromleser-update.path /etc/systemd/system/stromleser-update.service
+  rm -f "$UNIT" "$BIN" "$BIN.prev" "$BIN.new" /etc/systemd/system/stromleser-update.path /etc/systemd/system/stromleser-update.service
+  rm -rf "$DATA/update"   # nedlastede oppdateringer (selve dataene beholdes)
   systemctl daemon-reload
   say "Ferdig."
   exit 0
