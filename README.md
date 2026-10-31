@@ -47,7 +47,8 @@ Motoren kjører hjemme hos deg (Raspberry Pi, Docker, Unraid eller Linux). Datae
 
 **Enheter og bygg**
 - AMS-leser fra amsleser.no (Pow-K) og Solar Assistant, over det lokale nettet.
-- Easee-ladere via Easee-skyen (brukernavn og passord fra appen). Timeforbruk og ladeøkter hentes hver time, også bakover i tid. Ladere andre har delt med deg holdes utenfor.
+- Easee-ladere via Easee-skyen (brukernavn og passord fra appen): status og effekt i sanntid, timeforbruk og ladeøkter hver time, også bakover i tid. Ladere andre har delt med deg holdes utenfor.
+- BMW via CarData (klient-ID fra MyBMW, godkjennes én gang): ladenivå, rekkevidde, lading og kilometerstand i sanntid.
 - «Test tilkobling» før lagring, med bevis (ekte verdier) og konkrete forslag ved feil. Nattlig test kl. 03:00 og «Test nå».
 - Flere bygg (bolig og fritidsbolig) med målepunkt-ID (sjekkes), posisjon, husmal og retning.
 
@@ -58,7 +59,7 @@ Motoren kjører hjemme hos deg (Raspberry Pi, Docker, Unraid eller Linux). Datae
 - Kode for å endre: alle kan se, men bare den med koden kan endre innstillinger. Låses igjen etter 10 minutter, fint for et nettbrett som står fremme.
 - Norsk og engelsk.
 
-**Planlagt:** bil (BMW CarData), sanntidsstatus fra laderen, sikkerhetskopi, og senere Strømleser Sky på strømleser.no.
+**Planlagt:** kilometerstand i refusjonsrapporten, sikkerhetskopi, og senere Strømleser Sky på strømleser.no.
 
 ## Installere på Raspberry Pi eller Linux
 

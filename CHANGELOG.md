@@ -3,6 +3,14 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.6.1
+
+- **BMW (CarData).** Legg til bilen under Innstillinger › Enheter med klient-ID fra MyBMW. Du godkjenner én gang hos BMW med en kode. Hjem viser ladenivå, rekkevidde, om bilen lader (effekt og tid til full) og kilometerstand, fortløpende fra BMW-strømmen.
+- **Sanntid fra Easee.** Hjem viser hvilken lader som lader, med effekt og kWh i økta, oppdatert fortløpende.
+- Nye ladere får inneværende måned først, og eldre data etterpå. Elbil viser «Henter fra Easee …» mens den henter.
+- Andel-feltet for laderne står på én linje også på mobil.
+- Har BMW-godkjenningen gått ut (Strømleser avslått i mer enn 14 dager), står det «Godkjenn på nytt» under Enheter.
+
 ## v0.6.0
 
 - **Easee-lader.** Legg til Easee under Innstillinger › Enheter med brukernavn og passord fra Easee-appen. Strømleser henter kWh per time og ladeøktene én gang i timen, også bakover i tid (eldre data kommer i løpet av noen timer). Ladere andre har delt med deg er ikke med, men kan tas med.
