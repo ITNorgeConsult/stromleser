@@ -3,6 +3,14 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.6.0
+
+- **Easee-lader.** Legg til Easee under Innstillinger › Enheter med brukernavn og passord fra Easee-appen. Strømleser henter kWh per time og ladeøktene én gang i timen, også bakover i tid (eldre data kommer i løpet av noen timer). Ladere andre har delt med deg er ikke med, men kan tas med.
+- **Historikk › Elbil.** Hva ladingen kostet måned for måned: betalt pris time for time (strøm, nettleie og avgifter), også når solcellene dekket ladingen. Viser hvor mye ladingen løftet kapasitetstrinnet, ladet per dag, per lader og alle ladeøkter.
+- **Refusjonsrapport for firmabil** under Historikk › Rapporter. Velg periode og ladere, og prisgrunnlag: fast sats + tillegg per måned (standard 1,70 kr/kWh og 445 kr/mnd, kan endres), bare fast sats, eller faktisk kostnad. Rapporten er en A4-side med signaturlinjer og øktliste som vedlegg. Lagre som PDF fra utskriftsvinduet, eller last ned øktlista som CSV.
+- Andel per lader, hvis bare en del av ladingen gjelder firmabilen.
+- Ansatt, arbeidsgiver, ladested og bil fylles inn én gang og huskes.
+
 ## v0.5.2
 
 - Etter «Oppdater nå» vises «Oppdatert til …» (eller hva som gikk galt) med en gang, ikke først etter neste omstart.

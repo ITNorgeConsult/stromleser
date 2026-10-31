@@ -19,6 +19,8 @@ Motoren kjører hjemme hos deg (Raspberry Pi, Docker, Unraid eller Linux). Datae
 <p>
   <img src="docs/bilder/hjem-mork.png" width="24%" alt="Hjem i mørkt tema" />
   <img src="docs/bilder/oppdatering.png" width="24%" alt="Oppdatering fra nettsiden med endringer" />
+  <img src="docs/bilder/elbil.png" width="24%" alt="Historikk › Elbil: ladet energi, kostnad og kapasitetstrinn" />
+  <img src="docs/bilder/rapport.png" width="24%" alt="Refusjonsrapport for lading av firmabil (A4)" />
 </p>
 
 <sub>Skjermbildene viser fiktive data (bygget «Solbakken» og et oppdiktet målepunkt).</sub>
@@ -39,10 +41,13 @@ Motoren kjører hjemme hos deg (Raspberry Pi, Docker, Unraid eller Linux). Datae
 **Historikk**
 - Forbruk, kjøpt, egen sol og solgt per dag, uke, måned og år, sammenlignet med samme tid i fjor.
 - Sol: produsert, brukt selv og solgt, og hva solcellene har gitt i kroner, både per periode og siden start.
+- Elbil: ladet energi og hva ladingen kostet time for time (betalt pris, også når solcellene dekket den), hvor mye ladingen løftet kapasitetstrinnet, og ladeøktene.
+- Refusjonsrapport for lading av firmabil (A4, lagres som PDF) med fast sats og tillegg, bare fast sats eller faktisk kostnad. Øktliste som CSV.
 - Import av timeverdier fra Elhub (CSV eller zip), Solar Assistant-totaler (dag og måned) og månedstall lagt inn for hånd. Oversikt over hvilke måneder som har data.
 
 **Enheter og bygg**
 - AMS-leser fra amsleser.no (Pow-K) og Solar Assistant, over det lokale nettet.
+- Easee-ladere via Easee-skyen (brukernavn og passord fra appen). Timeforbruk og ladeøkter hentes hver time, også bakover i tid. Ladere andre har delt med deg holdes utenfor.
 - «Test tilkobling» før lagring, med bevis (ekte verdier) og konkrete forslag ved feil. Nattlig test kl. 03:00 og «Test nå».
 - Flere bygg (bolig og fritidsbolig) med målepunkt-ID (sjekkes), posisjon, husmal og retning.
 
@@ -53,7 +58,7 @@ Motoren kjører hjemme hos deg (Raspberry Pi, Docker, Unraid eller Linux). Datae
 - Kode for å endre: alle kan se, men bare den med koden kan endre innstillinger. Låses igjen etter 10 minutter, fint for et nettbrett som står fremme.
 - Norsk og engelsk.
 
-**Planlagt:** elbillader (Easee), bil (BMW CarData), ladeøkter og refusjonsrapport for firmabil, sikkerhetskopi, og senere Strømleser Sky på strømleser.no.
+**Planlagt:** bil (BMW CarData), sanntidsstatus fra laderen, sikkerhetskopi, og senere Strømleser Sky på strømleser.no.
 
 ## Installere på Raspberry Pi eller Linux
 
