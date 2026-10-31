@@ -3,6 +3,13 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.6.4
+
+- **Laderne i 3D-huset på Hjem.** Hver Easee-lader har sin egen boks (på garasjeveggen, husveggen eller en stolpe, etter navnet på laderen). Når en lader lader, går kometer fra måleren til laderen, lysringen pulserer og kW vises.
+- **Fjerde kort «Elbil»** ved Sol, Nett og Hjem viser hva laderne bruker nå. Trykk for å se bare laderne i huset.
+- **«Hjem» er nå huset uten elbil**, med «+X kW til elbil» under når en lader er i gang.
+- **Historikk › Forbruk delt i hus og elbil.** Søylene viser elbilen som egen del, og forbruket står som «Hus … · Elbil … kWh».
+
 ## v0.6.3
 
 - Elbil og ladersiden virker også før noen bil er lagt til (de stoppet med en feil).
