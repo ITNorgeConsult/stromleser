@@ -1,0 +1,11 @@
+# Ser etter en oppdatering motoren har lastet ned og sjekket
+# (/var/lib/stromleser/update/ready), og starter stromleser-update.service.
+[Unit]
+Description=Strømleser: ser etter en nedlastet oppdatering
+
+[Path]
+PathExists=/var/lib/stromleser/update/ready
+Unit=stromleser-update.service
+
+[Install]
+WantedBy=multi-user.target

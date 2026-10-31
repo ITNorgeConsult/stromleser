@@ -1,0 +1,13 @@
+# Installerer en ny versjon som root. Motoren kjører uten rettigheter og kan
+# ikke bytte seg selv; denne tjenesten henter sjekksummen fra GitHub på nytt,
+# bytter /usr/local/bin/stromleser (den gamle blir .prev), starter Strømleser
+# på nytt og ruller tilbake hvis den nye ikke svarer. Se internal/update.
+[Unit]
+Description=Strømleser: installerer en nedlastet oppdatering
+After=network-online.target
+
+[Service]
+Type=oneshot
+Environment=STROMLESER_ADDR=:8080
+ExecStart=/usr/local/bin/stromleser apply-update --data /var/lib/stromleser
+TimeoutStartSec=10min

@@ -1,0 +1,38 @@
+[Unit]
+Description=Strømleser
+Documentation=https://github.com/ITNorgeConsult/stromleser
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=stromleser
+Group=stromleser
+Environment=STROMLESER_DATA_DIR=/var/lib/stromleser
+Environment=STROMLESER_ADDR=:8080
+# Oppdateringstjenesten er installert (stromleser-update.path): knapp i grensesnittet
+Environment=STROMLESER_UPDATER=systemd
+ExecStart=/usr/local/bin/stromleser
+Restart=on-failure
+RestartSec=5
+
+# Sikkerhet: egen bruker, ingen tilgang utenfor egen datamappe
+StateDirectory=stromleser
+StateDirectoryMode=0750
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+LockPersonality=true
+RestrictRealtime=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+CapabilityBoundingSet=
+SystemCallArchitectures=native
+
+[Install]
+WantedBy=multi-user.target

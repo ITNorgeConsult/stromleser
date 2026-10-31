@@ -1,0 +1,15 @@
+services:
+  stromleser:
+    image: ghcr.io/itnorgeconsult/stromleser:latest
+    container_name: stromleser
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    volumes:
+      - stromleser-data:/data
+    environment:
+      - TZ=Europe/Oslo
+    mem_limit: 512m
+
+volumes:
+  stromleser-data:
