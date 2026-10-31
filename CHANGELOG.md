@@ -3,6 +3,10 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.5.2
+
+- Etter «Oppdater nå» vises «Oppdatert til …» (eller hva som gikk galt) med en gang, ikke først etter neste omstart.
+
 ## v0.5.1
 
 - **Kode for å endre.** Under Innstillinger › Generelt › Tilgang kan du sette en kode. Da kan alle se alt, men bare den som har koden kan endre innstillinger, enheter, bygg, priser og import. Etter 10 minutter uten endringer låses det igjen. Fint for et nettbrett som står fremme.
