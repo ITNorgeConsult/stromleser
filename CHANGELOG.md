@@ -3,6 +3,13 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.6.3
+
+- Elbil og ladersiden virker også før noen bil er lagt til (de stoppet med en feil).
+- BMW: «Test nå» åpner ikke en ekstra tilkobling når Strømleser alt er koblet til BMW-strømmen (BMW tillater bare én, og testen feilet).
+- BMW vises som «Live» så snart strømmen er koblet til, også før bilen har sendt verdier.
+- Økter uten valgt bil står som «Bil ikke valgt».
+
 ## v0.6.2
 
 - **Egen side per lader.** Trykk på en lader på Hjem eller under Elbil. Du ser laderen animert mens den lader, strøm per fase, spenning, økta som pågår (kWh, varighet og kostnad hittil), siste time, kWh og kostnad for 30 dager eller 12 måneder, når på døgnet du lader, og hver økt time for time.
