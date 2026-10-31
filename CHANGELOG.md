@@ -3,6 +3,13 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.6.2
+
+- **Egen side per lader.** Trykk på en lader på Hjem eller under Elbil. Du ser laderen animert mens den lader, strøm per fase, spenning, økta som pågår (kWh, varighet og kostnad hittil), siste time, kWh og kostnad for 30 dager eller 12 måneder, når på døgnet du lader, og hver økt time for time.
+- **Biler.** Under Elbil legger du inn bilene (BMW kommer av seg selv) og velger hvilken bil som vanligvis står på hver lader. BMW-dataene retter det når bilen står på en annen lader, og du kan velge bil for hånd på hver økt. Elbil viser kWh og kostnad per bil.
+- **Refusjonsrapporten** har valget «Fordel på bil». På: bare økter med firmabil tas med. Av: alle valgte ladere summeres, og rapporten sier at den ikke er fordelt på bil.
+- «Andel» per lader er erstattet av bil per lader og økt.
+
 ## v0.6.1
 
 - **BMW (CarData).** Legg til bilen under Innstillinger › Enheter med klient-ID fra MyBMW. Du godkjenner én gang hos BMW med en kode. Hjem viser ladenivå, rekkevidde, om bilen lader (effekt og tid til full) og kilometerstand, fortløpende fra BMW-strømmen.
