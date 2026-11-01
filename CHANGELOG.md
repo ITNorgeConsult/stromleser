@@ -3,6 +3,12 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.7.1
+
+- **Planlagt lading:** når bilen står i laderen og venter på ladeplanen, står det «Venter på planlagt lading 00:05–05:55» på Hjem og på siden for laderen.
+- Siden for hver lader viser mer: ladeplan, om kabelen er låst, maks strøm, sikring, WiFi-nett og fastvare, og hva Easee-koden betyr når vi vet det.
+- Varigheten for en økt viste et urimelig tall når Easee ikke hadde sendt starttiden.
+
 ## v0.7.0
 
 - **Nye diagrammer overalt.** Søylene har fått et lett 3D-preg (skrå side, lys topp og glans), vokser fram når siden åpnes og glir når noe endres.
