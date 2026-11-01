@@ -3,6 +3,14 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.7.0
+
+- **Nye diagrammer overalt.** Søylene har fått et lett 3D-preg (skrå side, lys topp og glans), vokser fram når siden åpnes og glir når noe endres.
+- **Tidligere år som egne søyler.** I stedet for streker står i fjor (og eldre år, så langt det finnes data) som egne søyler i hver sin dempede farge ved siden av årets. Boblen viser hvert år med endring i prosent.
+- **Brytere i forklaringen.** Trykk på et år eller en del (kjøpt, egen sol, solgt, elbil …) for å skjule eller vise det. I år og i fjor vises som standard, og valget huskes.
+- Gjelder Historikk (Forbruk og Sol), Økonomi, Norgespris eller spot, Elbil og siden for hver lader. Strømprisen har fått brytere for kjøp og salg.
+- BMW: siste kjente status (ladenivå, rekkevidde, ladekabel) huskes over en omstart. Før sto ladekabelen som «Ikke tilkoblet» etter en oppdatering.
+
 ## v0.6.5
 
 - Bilen på Hjem vises med navnet du har gitt den under Historikk › Elbil › Biler.
