@@ -3,6 +3,17 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.9.0
+
+- **Nettbrettvisning.** Trykk på firkant-ikonet øverst på Hjem. Du får en tavle for hele skjermen: stor 3D-modell, klokke, effekt nå, prisen nå med dagens kurve, lading og bilen. Menyen er borte, og knappene forsvinner når ingen rører skjermen. Fint for en iPad på veggen.
+- **Morgendagens priser:** når de er klare, kommer det et kort på Hjem med snitt, de billigste tre timene og dyreste time, med døgnet i farger fra grønt til rødt.
+- **Styr laderne:** på siden for hver lader kan du starte, pause, fortsette og stoppe lading, og velge «Lad nå» utenom ladeplanen. Du trykker to ganger for å sende, og koden for å endre gjelder.
+- **Kvarterspriser:** spotprisene hentes fra Nord Pool i 15-minutters perioder, slik fakturaen regner. Er Nord Pool utilgjengelig, brukes timepriser som før.
+- **Norgespris-påminnelse** i desember og januar på Økonomi, med hva Norgespris har spart (eller kostet) deg det siste året.
+- **Easee-koder** vises med forklaring på siden for laderen (for eksempel «venter på ladeplanen» eller «begrenset av bilen»).
+- **Nye diagrammer:** kapasitetstrinnet har fått 3D-søyler med fargen etter hvor nær grensen du er, «Siste time» er en levende kurve, og døgnkartet for laderen er animert.
+- Bilsiden viser BMW-kodene med tekst, skjuler tomme verdier og viser korte tider.
+
 ## v0.8.1
 
 - **Bilen vises med en gang etter oppstart.** Strømleser henter siste kjente status fra BMW når den starter (ladenivå, rekkevidde, kilometerstand, ladekabel). Før måtte du vente til bilen sendte noe.
