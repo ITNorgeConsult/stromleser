@@ -3,6 +3,10 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.9.2
+
+- **Morgendagens priser:** kortet holder seg borte når du har lukket det, også etter at siden lastes på nytt.
+
 ## v0.9.1
 
 - **Morgendagens priser med Norgespris:** når prisen nesten er lik hele døgnet, vises billigst og dyrest i nøytrale farger i stedet for grønt og rødt.
