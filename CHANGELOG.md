@@ -3,6 +3,12 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.6.5
+
+- Bilen på Hjem vises med navnet du har gitt den under Historikk › Elbil › Biler.
+- Solcelleanlegget: den nattlige testen feiler ikke lenger når vekselretteren har slått seg av fordi det er mørkt. Om dagen sjekkes den som før.
+- Kapasitetstrinn: snittet regnes bare av døgnene som har vært. Tidlig i måneden står det «Foreløpig» i stedet for et for lavt tall.
+
 ## v0.6.4
 
 - **Laderne i 3D-huset på Hjem.** Hver Easee-lader har sin egen boks (på garasjeveggen, husveggen eller en stolpe, etter navnet på laderen). Når en lader lader, går kometer fra måleren til laderen, lysringen pulserer og kW vises.
