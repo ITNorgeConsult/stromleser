@@ -3,6 +3,12 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.8.1
+
+- **Bilen vises med en gang etter oppstart.** Strømleser henter siste kjente status fra BMW når den starter (ladenivå, rekkevidde, kilometerstand, ladekabel). Før måtte du vente til bilen sendte noe.
+- Statusen huskes også straks de første verdiene kommer.
+- Mangler det fortsatt data, står det «Venter på data fra bilen» i stedet for 0 %.
+
 ## v0.8.0
 
 - **Egen side for hver bil.** Trykk på bilkortet på Hjem eller på en bil under Elbil. Du ser batteriet animert, rekkevidde, kilometerstand, lading nå og alle verdier bilen sender.
