@@ -3,6 +3,12 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.9.1
+
+- **Morgendagens priser med Norgespris:** når prisen nesten er lik hele døgnet, vises billigst og dyrest i nøytrale farger i stedet for grønt og rødt.
+- **Kapasitetstrinnet:** merket for snittet legger seg ikke lenger oppå søylen når måneden bare har ett døgn, og det er lett å lese også når det krysser grenselinja.
+- Siden for laderen viser ikke lenger merknaden om UTC.
+
 ## v0.9.0
 
 - **Nettbrettvisning.** Trykk på firkant-ikonet øverst på Hjem. Du får en tavle for hele skjermen: stor 3D-modell, klokke, effekt nå, prisen nå med dagens kurve, lading og bilen. Menyen er borte, og knappene forsvinner når ingen rører skjermen. Fint for en iPad på veggen.
