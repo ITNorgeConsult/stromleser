@@ -3,6 +3,15 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.8.0
+
+- **Egen side for hver bil.** Trykk på bilkortet på Hjem eller på en bil under Elbil. Du ser batteriet animert, rekkevidde, kilometerstand, lading nå og alle verdier bilen sender.
+- **Kjørt og forbruk:** kilometer per dag eller måned og kWh per 100 km, regnet fra kilometerstanden og ladingen til bilen. Ladenivå over tid.
+- **Lading for bilen** per dag eller måned, med tidligere år som egne søyler. Biler uten egne data (som Zeekr) får bare denne delen.
+- **Posisjon** kan vises på bilsiden når du slår det på (standard av).
+- **Refusjonsrapporten** kan vise kjørte km og kWh per 100 km for firmabilen («Vis kjørte km», standard av).
+- Ladenivå og kilometerstand lagres hvert kvarter fra nå av, så historikken bygges opp fra denne versjonen.
+
 ## v0.7.1
 
 - **Planlagt lading:** når bilen står i laderen og venter på ladeplanen, står det «Venter på planlagt lading 00:05–05:55» på Hjem og på siden for laderen.
