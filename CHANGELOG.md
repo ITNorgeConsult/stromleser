@@ -3,6 +3,13 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.14.0
+
+- **Låst betyr bare visning:** når en kode er satt og skjermen ikke er låst opp, vises ingen knapper eller felt for å endre noe. Det gjelder legge til, teste og slette enheter, endre bygg, priser, ladere og biler, bil per ladeøkt, styring av laderne, posisjon for bilen, import, oppdatering og koden. Siden «Denne skjermen» vises fortsatt.
+- **Uten kode kan du velge** språk og lyst/mørkt tema, i tillegg til periode, bygg og hva diagrammene viser. Språket huskes i nettleseren.
+- **Refusjonsrapporten** vises som eksempel med de lagrede innstillingene. Utskrift og CSV krever koden.
+- «Lås opp» finnes øverst under Innstillinger og på siden for rapporten.
+
 ## v0.13.3
 
 - **Roligere bølger:** boblene og den mørke kantlinjen er fjernet, så teksten i kortene er lett å lese.
