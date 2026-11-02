@@ -3,6 +3,11 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.13.3
+
+- **Roligere bølger:** boblene og den mørke kantlinjen er fjernet, så teksten i kortene er lett å lese.
+- **«Importer data»** er fjernet fra Historikk. Du finner det under Innstillinger › Bygg › Importer data og månedstall.
+
 ## v0.13.2
 
 - **Tydeligere bølger i kortene under Historikk:** høye, fargede bølger med små bobler som stiger, så det er lett å se hvor fullt kortet er.
