@@ -3,6 +3,11 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.15.1
+
+- **Backup på mobil og nettbrett:** feltene i veiviserne går ikke lenger utenfor kortet, og alle trinnene får plass.
+- **Siste time fra nettet** viser hele timen også rett etter en omstart eller oppdatering. Før startet kurven på nytt, og viste bare minuttene siden.
+
 ## v0.15.0
 
 - **Backup:** ny fane under Innstillinger. Strømleser lager én kryptert fil med innstillinger, enheter, priser, alle målinger, ladeøkter og biler, og lagrer den på en minnepinne, en NAS og/eller i skyen (Backblaze B2, Cloudflare R2, Wasabi, MinIO, Amazon S3 og andre som støtter S3).
