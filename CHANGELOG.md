@@ -3,6 +3,11 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.12.1
+
+- **Huset vugger nå mot høyre først** og så tilbake.
+- Nye skjermbilder i README.
+
 ## v0.12.0
 
 - **Lysere infoboks i diagrammene:** boksen over søylene er nå lys og halvgjennomsiktig i stedet for mørk, så den er roligere å se på.
