@@ -3,6 +3,13 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.13.0
+
+- **Alle år for hver lader:** under Historikk › Lading › en lader viser «Alle år» hva laderen har ladet måned for måned helt fra starten, og en tabell per år med kWh, antall økter, ladetid, snitt og maks kW.
+- **«Data fra …»** på ladersiden viser hvor langt tilbake Strømleser har data for laderen.
+- **Mer om hver ladeøkt:** hvor lenge bilen sto tilkoblet, omtrent hvor lenge den ladet, og snitt og maks kW.
+- **Importer ladeøkter fra Easee:** last opp eksporten fra Easee (CSV per lader) under Importer data. Økter som mangler legges til; de som allerede er hentet fra Easee, endres ikke. Mangler timene, anslås energien per time (merket med *), og ekte timer fra Easee går foran. Navn, adresse og telefon i fila leses ikke inn.
+
 ## v0.12.1
 
 - **Huset vugger nå mot høyre først** og så tilbake.
