@@ -3,6 +3,13 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.12.0
+
+- **Lysere infoboks i diagrammene:** boksen over søylene er nå lys og halvgjennomsiktig i stedet for mørk, så den er roligere å se på.
+- **Bølger i kortene under Historikk:** kortene fylles nedenfra med en rolig bølge. Nivået er prosenten som står i kortet for valgt periode: Kjøpt og Egen sol som andel av forbruket, Solgt og Brukt selv som andel av sola. I Forbruk-kortet betyr den stiplede streken «i fjor»: over streken er mer enn samme tid i fjor, under er mindre.
+- **Garasjen:** porten vender mot grusplassen, med en lader på hver side. Veien kommer opp til porten, bilen står foran porten med fronten mot veien, og steinmuren er borte.
+- **Mer atmosfære rundt huset:** dypere himmel, mørkere kanter og en myk skygge under tomta, så huset står tydeligere fram, både i lyst og mørkt tema.
+
 ## v0.11.2
 
 - **3D-huset på skjermer med eldre grafikk:** 3D virker nå også der nettleseren bare har WebGL 1, for eksempel Samsung Family Hub-kjøleskap. Der kjører det i lett modus uten skygger, så det går jevnt, og huset kan snus med fingrene. Før ble det vist en flat 2D-tegning.
