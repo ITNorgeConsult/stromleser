@@ -3,6 +3,10 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.16.0
+
+- **Kilometerstand og ladenivå for biler uten egne data** (for eksempel Zeekr X): legg dem inn på bilsiden under Historikk › Lading. Strømleser regner ut kjørte km og forbruk per 100 km sammen med ladingen fra laderne, og viser ladenivået over tid. En kilometerstand som er lavere enn forrige, avvises. Målingene kan slettes, og alt krever koden for å endre.
+
 ## v0.15.2
 
 - **Huset på Hjem vugger lenger mot garasjen** (20° mot garasjen, 6° tilbake) og blir stående litt ved ytterpunktene før det snur.
