@@ -3,6 +3,11 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.15.2
+
+- **Huset på Hjem vugger lenger mot garasjen** (20° mot garasjen, 6° tilbake) og blir stående litt ved ytterpunktene før det snur.
+- **Funkis-tegningen** (miniatyrene og huset uten 3D) har nå garasjen bak huset, med porten mot grusplassen og bilen foran, som i 3D.
+
 ## v0.15.1
 
 - **Backup på mobil og nettbrett:** feltene i veiviserne går ikke lenger utenfor kortet, og alle trinnene får plass.
