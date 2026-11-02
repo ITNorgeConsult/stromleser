@@ -3,6 +3,11 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.13.2
+
+- **Tydeligere bølger i kortene under Historikk:** høye, fargede bølger med små bobler som stiger, så det er lett å se hvor fullt kortet er.
+- **Bil per økt:** listen viser bare bilene dine, med den som gjelder for økta valgt. Velg en annen bil for å endre den.
+
 ## v0.13.1
 
 - **Rettet feil på ladersiden:** siden kunne vise «500 Internal Error» i «12 måneder» når du dro over søylene fra i fjor.
