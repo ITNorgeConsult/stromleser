@@ -3,6 +3,11 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.10.1
+
+- **Solbuen etter solnedgang:** sola ble stående i enden av buen en stund etter solnedgang. Nå går buen over til natt (månen) etter solas egne tider.
+- Nye skjermbilder i README med de nye navnene.
+
 ## v0.10.0
 
 - **Nye navn:** «Økonomi» heter nå **Forbruk**. Under Historikk heter fanene **Strøm**, Sol, **Lading** og Rapporter. På Hjem heter kortet med laderne «Lading», siden det viser laderne og ikke bilen.
