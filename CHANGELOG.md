@@ -3,6 +3,14 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.10.0
+
+- **Nye navn:** «Økonomi» heter nå **Forbruk**. Under Historikk heter fanene **Strøm**, Sol, **Lading** og Rapporter. På Hjem heter kortet med laderne «Lading», siden det viser laderne og ikke bilen.
+- **Bil og lader i entall:** under Lading står det «Bil» og «Lader» når du har én, og «Biler» og «Ladere» når du har flere.
+- **Ledig lader** viser «Ikke tilkoblet» i stedet for «Ingen bil», og navnet på bilen som vanligvis står der (for eksempel «Zeekr X · ikke tilkoblet»).
+- **Solbuen over huset** ligger nå fast øverst i bildet, så du alltid ser sola, uansett hvordan huset snur seg. Den viser soloppgang og solnedgang, og sola går langs buen etter klokka. Buen er lav om vinteren og høy om sommeren. Om natta går månen mot neste soloppgang. Skyggene følger fortsatt sola.
+- **Søylediagrammene** vokser nå fra bunnen av boksen og opp til riktig høyde. Før kunne søylene strekke seg over hele siden et øyeblikk når siden ble åpnet.
+
 ## v0.9.2
 
 - **Morgendagens priser:** kortet holder seg borte når du har lukket det, også etter at siden lastes på nytt.

@@ -11,7 +11,7 @@ Motoren kjører hjemme hos deg (Raspberry Pi, Docker, Unraid eller Linux). Datae
   <img src="docs/bilder/hjem.png" width="24%" alt="Hjem: 3D-hus med strømflyt fra sol, nett og hjem" />
   <img src="docs/bilder/historikk.png" width="24%" alt="Historikk: forbruk måned for måned" />
   <img src="docs/bilder/sol.png" width="24%" alt="Historikk › Sol: hva solcellene har gitt" />
-  <img src="docs/bilder/okonomi.png" width="24%" alt="Økonomi: strømregningen for måneden" />
+  <img src="docs/bilder/okonomi.png" width="24%" alt="Forbruk: strømregningen for måneden" />
 </p>
 
 <img src="docs/bilder/hjem-pc.png" alt="Hjem på PC" />
@@ -19,7 +19,7 @@ Motoren kjører hjemme hos deg (Raspberry Pi, Docker, Unraid eller Linux). Datae
 <p>
   <img src="docs/bilder/hjem-mork.png" width="24%" alt="Hjem i mørkt tema" />
   <img src="docs/bilder/oppdatering.png" width="24%" alt="Oppdatering fra nettsiden med endringer" />
-  <img src="docs/bilder/elbil.png" width="24%" alt="Historikk › Elbil: ladet energi, kostnad og kapasitetstrinn" />
+  <img src="docs/bilder/elbil.png" width="24%" alt="Historikk › Lading: ladet energi, kostnad og kapasitetstrinn" />
   <img src="docs/bilder/rapport.png" width="24%" alt="Refusjonsrapport for lading av firmabil (A4)" />
 </p>
 
@@ -29,19 +29,19 @@ Motoren kjører hjemme hos deg (Raspberry Pi, Docker, Unraid eller Linux). Datae
 
 **Hjem**
 - Strømmen akkurat nå fra sol, nett og hjem, med kometer som viser retningen. Effekten står på kortene, og et trykk på et kort viser kW langs ledningen.
-- Huset i 3D, som kan snus, vippes og zoomes. Lys og skygger kommer fra sola på riktig plass etter posisjon, klokkeslett og hvilken vei huset vender. Du kan velge mellom husmalene Saltak og Funkis.
+- Huset i 3D, som kan snus, vippes og zoomes. Lys og skygger kommer fra sola på riktig plass etter posisjon, klokkeslett og hvilken vei huset vender. Over huset viser en solbue soloppgang, solnedgang og hvor sola står nå. Du kan velge mellom husmalene Saltak og Funkis.
 - Kostnad i dag, pris nå (kjøp og salg) og den siste timen fra nettet. Natt-modus og lyst/mørkt tema.
 
-**Økonomi**
+**Forbruk**
 - Strømregningen for måneden og i dag: strøm etter avtalen (Norgespris med tak, spot eller fastpris), strømstøtte, nettleie (energiledd, kapasitetstrinn og fastbeløp), avgifter og mva.
 - Salg av solstrøm: spotpris time for time, påslag og plusskunde-godtgjøring. Prognose for hele måneden.
 - «Slik står det på fakturaen»: måneden med de samme linjene som fakturaene fra strømleverandøren og nettselskapet, også med gjennomfakturering.
 - Satser per bygg med «gjelder fra», med standardsatser og kilder for 2023–2026.
 
 **Historikk**
-- Forbruk, kjøpt, egen sol og solgt per dag, uke, måned og år, sammenlignet med samme tid i fjor.
+- Strøm: forbruk, kjøpt, egen sol og solgt per dag, uke, måned og år, sammenlignet med samme tid i fjor.
 - Sol: produsert, brukt selv og solgt, og hva solcellene har gitt i kroner, både per periode og siden start.
-- Elbil: ladet energi og hva ladingen kostet time for time (betalt pris, også når solcellene dekket den), hvor mye ladingen løftet kapasitetstrinnet, og ladeøktene.
+- Lading: ladet energi og hva ladingen kostet time for time (betalt pris, også når solcellene dekket den), hvor mye ladingen løftet kapasitetstrinnet, og ladeøktene.
 - Refusjonsrapport for lading av firmabil (A4, lagres som PDF) med fast sats og tillegg, bare fast sats eller faktisk kostnad. Øktliste som CSV.
 - Import av timeverdier fra Elhub (CSV eller zip), Solar Assistant-totaler (dag og måned) og månedstall lagt inn for hånd. Oversikt over hvilke måneder som har data.
 
