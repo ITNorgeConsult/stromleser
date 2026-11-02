@@ -3,6 +3,11 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.13.1
+
+- **Rettet feil på ladersiden:** siden kunne vise «500 Internal Error» i «12 måneder» når du dro over søylene fra i fjor.
+- **Bil per økt** er tydeligere: det første valget heter nå «Automatisk: BMW iX (BMW-en meldte at den ladet)». Det er ikke en ekstra bil, bare Strømlesers eget valg.
+
 ## v0.13.0
 
 - **Alle år for hver lader:** under Historikk › Lading › en lader viser «Alle år» hva laderen har ladet måned for måned helt fra starten, og en tabell per år med kWh, antall økter, ladetid, snitt og maks kW.
