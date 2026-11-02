@@ -3,6 +3,18 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.11.0
+
+- **Mer levende 3D-hus (Funkis):** garasjen står nå bak huset med porten mot grusplassen, og glassgang mellom byggene. Skogkant med gran, furu og bjørk bak tomta, fjellknauser, epletrær, plen med striper etter klipping, steinmur ved grusplassen, terrasse med pergola og solseil ved garasjen, og stående trekledning ved vinduene. Trærne vaier rolig i vinden.
+- **Speilvend:** under Bygg › Utseende på Hjem kan du speilvende tegningen, så garasjen står bak til høyre i stedet for bak til venstre.
+- **Lysere kveld og natt:** huset har fått blått måneskinn og lysere farger, så detaljene synes også i mørket.
+- **Solbuen:** soloppgang står alltid til venstre og solnedgang til høyre. Om natta går månen fra solnedgang mot soloppgang. Sola og månen er større og tydeligere. Huset vugger litt raskere, og først mot høyre.
+- **Kortene under huset** sitter ikke lenger halvveis over bildet, og himmelen tones jevnt over i kortet.
+- **Nye ikoner:** Forbruk har fått søylediagrammet, Historikk en klokke.
+- «Låst» vises ikke lenger nederst i menyen. Lås opp under Innstillinger (eller når en endring ber om koden); når det er låst opp, vises «Låst opp» til det låses igjen.
+- Versjonen vises som «Strømleser v0.11.0».
+- Overskriften «Historikk» har samme størrelse på alle fanene.
+
 ## v0.10.1
 
 - **Solbuen etter solnedgang:** sola ble stående i enden av buen en stund etter solnedgang. Nå går buen over til natt (månen) etter solas egne tider.
