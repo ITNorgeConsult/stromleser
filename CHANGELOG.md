@@ -3,6 +3,11 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.11.1
+
+- **Ny side: Innstillinger › Generelt › Denne skjermen.** Viser nettleser, skjerm, berøring, grafikk (WebGL 1 og 2, skjermkort) og om 3D-huset på Hjem virker på enheten, med feilmeldingen hvis det ikke gjør det. «Test 3D nå» prøver 3D-motoren på stedet, og «Kopier alt» gir alle detaljene som tekst. Nyttig på kjøleskap, nettbrett og andre skjermer.
+- **«Last inn på nytt»** på samme side tømmer nettleserens hurtigbuffer for Strømleser og laster alt på nytt.
+
 ## v0.11.0
 
 - **Mer levende 3D-hus (Funkis):** garasjen står nå bak huset med porten mot grusplassen, og glassgang mellom byggene. Skogkant med gran, furu og bjørk bak tomta, fjellknauser, epletrær, plen med striper etter klipping, steinmur ved grusplassen, terrasse med pergola og solseil ved garasjen, og stående trekledning ved vinduene. Trærne vaier rolig i vinden.
