@@ -3,6 +3,15 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.15.0
+
+- **Backup:** ny fane under Innstillinger. Strømleser lager én kryptert fil med innstillinger, enheter, priser, alle målinger, ladeøkter og biler, og lagrer den på en minnepinne, en NAS og/eller i skyen (Backblaze B2, Cloudflare R2, Wasabi, MinIO, Amazon S3 og andre som støtter S3).
+- **Veiviser** for passord, destinasjoner og plan (av, hver natt eller ukentlig, klokkeslett og antall kopier). Hver destinasjon testes før den lagres, med forslag til løsning hvis noe feiler.
+- **Trygt:** fila krypteres med et eget backup-passord (AES-256-GCM). Hver kopi leses tilbake og kontrolleres etter opplasting, og gamle kopier slettes først når en ny er kontrollert. Ble en planlagt backup hoppet over fordi maskinen var av, tas den kort tid etter oppstart.
+- **Gjenopprett** fra lista over kopier, eller last opp en fil. Du kan ta tilbake alt eller bare deler (strøm og sol, lading, biler, spotpriser, oppsett), og velge «Fyll hull» (bare det som mangler) eller «Erstatt». Før noe endres, lagres en sikkerhetskopi av dagens data, så du kan angre.
+- **Last ned** en backup når som helst. Alt under Backup krever koden for å endre.
+- **Siste time fra nettet** på Hjem: trykk eller dra på kurven for å se klokkeslett og effekt, med tidsmerker hvert kvarter og klokkeslett på toppen.
+
 ## v0.14.0
 
 - **Låst betyr bare visning:** når en kode er satt og skjermen ikke er låst opp, vises ingen knapper eller felt for å endre noe. Det gjelder legge til, teste og slette enheter, endre bygg, priser, ladere og biler, bil per ladeøkt, styring av laderne, posisjon for bilen, import, oppdatering og koden. Siden «Denne skjermen» vises fortsatt.

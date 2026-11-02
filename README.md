@@ -22,6 +22,10 @@ Motoren kjører hjemme hos deg (Raspberry Pi, Docker, Unraid eller Linux). Datae
   <img src="docs/bilder/elbil.png" width="24%" alt="Historikk › Lading: ladet energi, kostnad og kapasitetstrinn" />
   <img src="docs/bilder/rapport.png" width="24%" alt="Refusjonsrapport for lading av firmabil (A4)" />
 </p>
+<p align="center">
+  <img src="docs/bilder/backup.png" width="49%" alt="Backup til minnepinne og Backblaze B2, med animasjon" />
+  <img src="docs/bilder/gjenopprett.png" width="49%" alt="Gjenopprett: velg hva som tas tilbake, med Fyll hull eller Erstatt" />
+</p>
 
 <sub>Skjermbildene viser fiktive data (bygget «Solbakken» og et oppdiktet målepunkt).</sub>
 
@@ -54,12 +58,13 @@ Motoren kjører hjemme hos deg (Raspberry Pi, Docker, Unraid eller Linux). Datae
 
 **Drift**
 - Oppdatering fra nettsiden: Strømleser ser etter nye versjoner og viser hva som er nytt. Ett trykk laster ned, sjekker (SHA-256) og installerer, og setter den forrige tilbake hvis den nye ikke starter. Automatisk oppdatering om natta og testversjoner kan velges.
+- Backup: én kryptert fil (AES-256-GCM, eget passord) til minnepinne, NAS og/eller skylagring med S3 (Backblaze B2, Cloudflare R2, Wasabi, MinIO, Amazon S3). Hver natt eller ukentlig, med valgfritt antall kopier. Hver kopi leses tilbake og kontrolleres. Gjenopprett alt eller bare deler (strøm og sol, lading, biler, spotpriser, oppsett) med «Fyll hull» eller «Erstatt», og med en sikkerhetskopi først.
 - Lite skriving til minnekortet: sanntid i minnet, og måledata skrives samlet hvert 15. minutt (SQLite).
 - Passord krypteres (AES-GCM) og vises aldri i API-et.
 - Kode for å endre: alle kan se, men bare den med koden kan endre innstillinger. Låses igjen etter 10 minutter, fint for et nettbrett som står fremme.
 - Norsk og engelsk.
 
-**Planlagt:** kilometerstand i refusjonsrapporten, sikkerhetskopi, og senere Strømleser Sky på strømleser.no.
+**Planlagt:** senere Strømleser Sky på strømleser.no.
 
 ## Installere på Raspberry Pi eller Linux
 
