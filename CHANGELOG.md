@@ -3,6 +3,10 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.11.2
+
+- **3D-huset på skjermer med eldre grafikk:** 3D virker nå også der nettleseren bare har WebGL 1, for eksempel Samsung Family Hub-kjøleskap. Der kjører det i lett modus uten skygger, så det går jevnt, og huset kan snus med fingrene. Før ble det vist en flat 2D-tegning.
+
 ## v0.11.1
 
 - **Ny side: Innstillinger › Generelt › Denne skjermen.** Viser nettleser, skjerm, berøring, grafikk (WebGL 1 og 2, skjermkort) og om 3D-huset på Hjem virker på enheten, med feilmeldingen hvis det ikke gjør det. «Test 3D nå» prøver 3D-motoren på stedet, og «Kopier alt» gir alle detaljene som tekst. Nyttig på kjøleskap, nettbrett og andre skjermer.
