@@ -3,6 +3,11 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.18.0
+
+- **Koble til Strømleser Sky med ett trykk:** under Innstillinger › Sky trykker du «Koble til Strømleser Sky». Skyen åpnes, du logger inn (eller lager konto), sjekker at koden er lik og godkjenner. Strømleser kobler seg til av seg selv, uten kode å skrive. Koblingskode fra skyen virker fortsatt.
+- **Strømleser Sky er åpen** på app.strømleser.no, med en veiviser som hjelper deg i gang, totrinnsinnlogging (passkey eller app med koder) og lyst eller mørkt utseende.
+
 ## v0.17.0
 
 - **Strømleser Sky (forberedt):** ny fane Innstillinger › Sky. Koble Strømleser til skyen med en kode, og se det samme som hjemme fra hvor som helst. Strømleser kobler seg ut, så ingen porter må åpnes i ruteren. Skyen åpner på app.strømleser.no snart.
