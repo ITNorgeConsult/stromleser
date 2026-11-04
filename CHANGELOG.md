@@ -3,6 +3,11 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.18.1
+
+- **«Siste time» er lettere å lese:** kurven viser alltid bare den siste timen, også på ladersiden når laderen har stått stille lenge. Klokkeslettene under står ikke lenger oppå hverandre, og et brått hopp (for eksempel når ladingen starter) tegnes som et rent trinn.
+- Tydeligere feilmelding når skyen er for gammel til å koble til med ett trykk.
+
 ## v0.18.0
 
 - **Koble til Strømleser Sky med ett trykk:** under Innstillinger › Sky trykker du «Koble til Strømleser Sky». Skyen åpnes, du logger inn (eller lager konto), sjekker at koden er lik og godkjenner. Strømleser kobler seg til av seg selv, uten kode å skrive. Koblingskode fra skyen virker fortsatt.
