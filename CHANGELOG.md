@@ -3,6 +3,12 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.19.0
+
+- **Varsler:** ny side Varsler (bjella i menyen) viser hva som har skjedd de siste 30 dagene: lading startet, ferdig eller stoppet uventet, når timen ligger an til nytt kapasitetstrinn, morgendagens priser, enhet som feilet i nattlig test, backup som feilet og ny versjon. Trykk på et varsel for å gå til siden det gjelder. Filtrer på strøm og pris, lading eller drift, og merk som lest.
+- **Velg selv:** under Innstillinger › Varsler slår du hver type av eller på, velger når kapasitetsvarselet skal komme (90, 95 eller 100 % av grensen) og sender et testvarsel.
+- **Push til mobilen og e-post** via Strømleser Sky: hver person velger selv under Konto › Varsler i skyen, per type og kanal, med stille timer om natten. Skyen varsler også hvis Strømleser hjemme slutter å svare. På iPhone må skyen legges til på Hjem-skjermen for å få push.
+
 ## v0.18.1
 
 - **«Siste time» er lettere å lese:** kurven viser alltid bare den siste timen, også på ladersiden når laderen har stått stille lenge. Klokkeslettene under står ikke lenger oppå hverandre, og et brått hopp (for eksempel når ladingen starter) tegnes som et rent trinn.
