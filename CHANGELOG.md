@@ -3,6 +3,12 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.19.1
+
+- **Riktig forbruk per 100 km på bilsiden:** forbruket regnes nå bare med ladingen mellom første og siste kilometerstand i perioden. Før ble all lading i perioden delt på kilometerne, også lading før det fantes kilometerstand, så tallet ble alt for høyt.
+- **Endret ladenivå tas med:** har ladenivået falt eller steget mellom første og siste kilometerstand, regnes det inn. For biler uten egne data (som Zeekr X) legger du inn brukbar batteristørrelse på bilsiden. BMW sender den selv.
+- Forbruket vises når det er minst 100 km å regne på, med grunnlaget under (km, kWh fra laderne og fra ladenivået). Tallet per dag er fjernet fordi det ble misvisende. Under «12 måneder» vises forbruket per måned.
+
 ## v0.19.0
 
 - **Varsler:** ny side Varsler (bjella i menyen) viser hva som har skjedd de siste 30 dagene: lading startet, ferdig eller stoppet uventet, når timen ligger an til nytt kapasitetstrinn, morgendagens priser, enhet som feilet i nattlig test, backup som feilet og ny versjon. Trykk på et varsel for å gå til siden det gjelder. Filtrer på strøm og pris, lading eller drift, og merk som lest.
