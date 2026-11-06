@@ -3,6 +3,13 @@
 Korte punkter per versjon, nyeste først. Utgivelsen («Utgivelse» i Actions) henter teksten under
 `## vX.Y.Z` og viser den i Strømleser når en ny versjon finnes. Skriv for brukeren, på norsk.
 
+## v0.20.0
+
+- **Endre fra Strømleser Sky:** ny bryter «Tillat endringer fra skyen» under Innstillinger › Sky (av som standard). Når den er på, kan eieren endre varsler, lading og biler (bil per lader og økt, kilometerstand, batteri, rapportvalg), priser, bygg, språk og valg for oppdatering fra skyen, uten å være hjemme.
+- **Bare hjemme, av sikkerhetshensyn:** enheter og passord, koden for å endre, backup og gjenoppretting, selve oppdateringen, koblingen til skyen, import og nye eller slettede bygg.
+- **«Merk som lest» virker i skyen** for alle i husstanden.
+- Medlemmer kan fortsatt styre laderne når «Tillat styring fra skyen» er på, men ikke endre innstillinger.
+
 ## v0.19.1
 
 - **Riktig forbruk per 100 km på bilsiden:** forbruket regnes nå bare med ladingen mellom første og siste kilometerstand i perioden. Før ble all lading i perioden delt på kilometerne, også lading før det fantes kilometerstand, så tallet ble alt for høyt.
